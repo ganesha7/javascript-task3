@@ -1,0 +1,114 @@
+.content{
+	width: 800px;
+	margin: auto;
+	background-color: white;
+	margin-top: 70px;
+	margin-bottom: 70px;
+	border: 2px solid blue;
+}
+.content h1
+{
+	text-align: center;
+	background-color: pink;
+	padding: 20px 0px;
+	margin: 0;
+}	
+.content hr{
+	margin: 0;
+}
+#top{
+	float: right;
+	margin-right: 20px;
+	background-color: gray;
+	color: white;
+	padding: 5px;
+}
+.content h3{
+	margin-left: 20px;
+}
+.content label{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.content select{
+	font-size: 16px;
+	margin-left: 20px;
+}
+.content input[type=submit]{
+	font-size: 17px;
+	margin-left: 20px;
+	padding: 5px 10px;
+	background-color: gray;
+	color: white;
+}
+#demo{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo1{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo2{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo3{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo4{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo5{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo6{
+	width: 150px;
+	color: white;
+	text-align: center;
+	margin-left: 10px;
+}
+#demo7{
+	width: 200px;
+	text-align: center;
+	margin:auto;
+	font-size: 20px;
+	padding: 10px 0px; 
+
+}
+
+
+
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

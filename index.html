@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body style="background-color: gray;">
+  <div class="content">
+  	<h1>Javascript-online exam</h1>
+    <hr>
+    <br>
+        <p id="top">Total:14</p>
+        <h3>ANSWER ALL QUESTIONS:</h3>
+    	<label>1. js means _____?</label><br><br>
+    	<select name="" id="ans">
+    		<option>select</option>
+    		<option value="javascope"> javascope</option>
+    		<option value="javasceme"> javasceme</option>
+    		<option  value="javascript">javascript</option>
+    	</select> 
+    	<p id="demo"></p><br>
+   
+        <label>2. get date syntax _____?</label><br><br>
+    	<select name="" id="ans1" >
+    		<option>select</option>
+    		<option value="new Date()"> new Date()</option>
+    		<option value="new date()"> new date()</option>
+    		<option value="New date()">New date()</option>
+    	</select>
+        <p id="demo1"></p><br>
+         
+         <label>3. JavaScript arrays are written with _____?</label><br><br>
+         <select name="" id="ans2">
+         	<option>select</option>
+         	<option value="curly brase" >curly brase</option>
+         	<option value="square bracket">square bracket</option>      	
+         	<option value="square brackets">square brackets</option>
+         </select>
+         <p id="demo2"></p><br>
+          
+         <label>4. JavaScript objects are written with _____?</label><br><br>
+         <select name="" id="ans3">
+         	<option>select</option>
+         	<option value="square bracket">square bracket</option> 
+         	<option value="curly brase" >curly brase</option>     	
+         	<option value="square brackets">square brackets</option>
+         </select>
+         <p id="demo3"></p><br>
+
+         <label>5. JavaScript variables are containers for storing  _____?</label><br><br>
+         <select name="" id="ans4">
+         	<option>select</option>
+         	<option value="data codes">data codes</option> 
+         	<option value="data types" >data types</option>     	
+         	<option value="data values">data values</option>
+         </select>
+         <p id="demo4"></p><br>
+
+          <label>6. which is addition operator _____?</label><br><br>
+         <select name="" id="ans5">
+         	<option>select</option>
+         	<option value="- operator">(-) operator</option> 
+         	<option value="+ operator" >(+) operator</option>     	
+         	<option value="/ operator">(/) operator</option>
+         </select>
+         <p id="demo5"></p><br>
+
+            <label>7. A JavaScript string is zero or more characters written inside_____?</label><br><br>
+         <select name="" id="ans6">
+         	<option>select</option>
+         	<option value="quotes">quotes</option> 
+         	<option value="without quotes" >without quotes</option>     	
+         	<option value="nothing">nothing</option>
+         </select>
+         <p id="demo6"></p><br>
+
+
+        <input type="submit" name="" value="submit" onclick="myFunction()"> <br><br>
+        <hr><br>
+        <p id="demo7"></p><br>
+ 
+  </div>
+
+
+<script>
+function myFunction(){
+	var answer =  document.getElementById("ans").value;
+    var answer1 =  document.getElementById("ans1").value;
+    var answer2 =  document.getElementById("ans2").value;
+    var answer3 =  document.getElementById("ans3").value;
+    var answer4 =  document.getElementById("ans4").value;
+    var answer5 =  document.getElementById("ans5").value;
+    var answer6 =  document.getElementById("ans6").value;
+  
+
+if (answer==="javascript") {
+    document.getElementById("demo").innerHTML = "correct Answer";
+     document.getElementById("demo").style.background="green";
+     var a=2;  
+}else{
+    document.getElementById("demo").innerHTML = "Wrong Answer";
+       document.getElementById("demo").style.background="red";
+       var a=0;
+   }     
+
+if (answer1==="new Date()") {
+    document.getElementById("demo1").innerHTML = "correct Answer";
+     document.getElementById("demo1").style.background="green";
+     var b=2;
+}else{
+    document.getElementById("demo1").innerHTML = "Wrong Answer";
+       document.getElementById("demo1").style.background="red";
+     var b=0;
+    }
+ 
+if (answer2==="square bracket") {
+    document.getElementById("demo2").innerHTML = "correct Answer";
+    document.getElementById("demo2").style.background="green";
+     var c=2;
+}else{
+    document.getElementById("demo2").innerHTML = "Wrong Answer";
+    document.getElementById("demo2").style.background="red";
+     var c=0;
+    }
+
+if (answer3==="curly brase") {
+    document.getElementById("demo3").innerHTML = "correct Answer";
+    document.getElementById("demo3").style.background="green";
+     var d=2;
+}else{
+    document.getElementById("demo3").innerHTML = "Wrong Answer";
+    document.getElementById("demo3").style.background="red";
+     var d=0;
+    }
+
+if (answer4==="data values") {
+    document.getElementById("demo4").innerHTML = "correct Answer";
+     document.getElementById("demo4").style.background="green";
+     var e=2;
+}else{
+    document.getElementById("demo4").innerHTML = "Wrong Answer";
+    document.getElementById("demo4").style.background="red";
+     var e=0;
+    }
+
+if (answer5==="+ operator") {
+    document.getElementById("demo5").innerHTML = "correct Answer";
+    document.getElementById("demo5").style.background="green";
+     var f=2;
+}else{
+    document.getElementById("demo5").innerHTML = "Wrong Answer";
+    document.getElementById("demo5").style.background="red";
+     var f=0;
+    }
+
+if (answer6==="quotes") {
+    document.getElementById("demo6").innerHTML = "correct Answer";
+    document.getElementById("demo6").style.background="green";
+    var g=2;
+}else{
+    document.getElementById("demo6").innerHTML = "Wrong Answer";
+    document.getElementById("demo6").style.background="red";
+    var g=0;
+    } 
+
+    
+   var total=a+b+c+d+e+f+g;
+  
+  if (total>=8) {
+    document.getElementById("demo7").innerHTML ="Total:"+" "+total+"<br>"+"Result:"+"pass" ;
+    document.getElementById("demo7").style.background="yellow";
+  }else{
+  	document.getElementById("demo7").innerHTML ="Total:"+" "+total+"<br>"+"Result:"+"fail" ;
+  	document.getElementById("demo7").style.background="yellow";
+  }
+ 
+}
+
+
+</script>
+</body>
+</html>
